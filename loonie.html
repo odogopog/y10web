@@ -1,0 +1,34 @@
+<html>
+
+    <style>
+        #loonie {
+  border: none;
+  color: black;
+  padding: 50px 75px;
+  text-align: left;
+  text-decoration-color: black;
+  font-size: 16px;
+        }    
+    </style>
+    
+    
+    <h1 id="loonie">
+    <button type = "loonie" onclick="document.write(game1)">Flip!</button>
+    </h>
+    
+    <script>
+        var game1 = Math.floor(Math.random() * 2);
+        if (game1 == 1) {
+            game1 = "heads";
+        } if (game1 == 0) {
+            game1 = "tails";
+        }
+        
+    </script>
+    
+
+
+
+
+
+</html>

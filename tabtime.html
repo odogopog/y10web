@@ -1,29 +1,38 @@
 <html>
 
-<h1>Tables of Time</h1>
+<h1>Homework time</h1>
 	
 	
-<h3>1989 - Time Berners-Lee invents the WWW & HTML</h3>
+<h3>Start of homework</h3>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Tim_Berners-Lee.jpg" width="150px"/>
+<img src="books.png" width="150px"/>
 
-<table border="1">
-  <th>Inventer</th><th>Technology</th>
+<table id = "gotime" border="1">
+  <th>Subject</th><th>Time</th>
   <tr>
-     <td>Tim Berners-Lee</td><td>WWW & HTML</td>
+     <td>French</td><td>10 hours</td>
   </tr>
   <tr>
-     <td>Håkon Wium Lie</td><td>CSS</td>
+     <td>Chem</td><td>30mins</td>
   </tr>
   <tr>
-     <td>Brenden Eich</td><td>Javascript</td>
+     <td>Comp Sci</td><td>hour</td>
   </tr>
 </table>
 
-<h3>1996 - Håkon Wium Lie invents CSS</h3>
+<h3>yay, homework</h3>
 
 <img src="http://i.iinfo.cz/urs/hakon_wium_lie-121043715851298.jpg" width="150px"/>
 <style>
+    
+    #gotime {
+         padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: centre;
+  background-color:blue;
+  color: black;
+        
+    }
 
 #inventors {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -52,28 +61,28 @@
 </style>
 
 <table id="inventors" border="1">
-  <th>Inventor</th><th>Technology</th>
+  <th>My liking</th><th>Subject</th>
   <tr>
-     <td>Tim Berners-Lee</td><td>WWW & HTML</td>
+     <td>0</td><td>French</td>
   </tr>
   <tr>
-     <td>Håkon Wium Lie</td><td>CSS</td>
+     <td>8</td><td>Chem</td>
   </tr>
-  <tr>
-     <td>Brenden Eich</td><td>Javascript</td>
-  </tr>
+    <tr>
+        <td>10</td><td>Comp Sci</td>
+    </tr>
 </table>
 
-<h3>1995 - Brenden Eich invents JavaScript</h3>
+<h3>End of homework</h3>
 
 <div id="printmytable"></div>
-<img src="http://www.nndb.com/people/095/000031002/brendan-eich-2-sized.jpg" width="150px">
+<img src="yay.jpg" width="150px">
 
 <script>
 
 function buildmyTable() {
 
-  var inventors = [{name:"Tim Berners-Lee",invention:"WWW & HTML"},{name:"Haken Wium Lie",invention:"CSS"},{name:"Brendan Eich",invention:"Javascript"}];
+  var inventors = [{name:"French",invention:"Chem"},{name:"invention:"Comp Sci"},{name:"Brendan Eich",invention:"Javascript"}];
 
   // build a string variable with all the table code and data
   var mytable = "<table border='1'>";
